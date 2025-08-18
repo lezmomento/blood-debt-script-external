@@ -18,7 +18,8 @@ local killerWeapons = {
     ["SKORPION"] = true, ["Mares Leg"] = true, ["RR-LightCompactPistol"] = true,
     ["KamatovS"] = true, ["Throwing Tomahawk"] = true, ["Throwing Kunai"] = true,
     ["ChromeSlide Turqoise RR-LCP"] = true, ["JS-1 CYCLOPS"] = true,
-    ["THUMPA"] = true, ["LUT-E 'KRUS'"] = true
+    ["THUMPA"] = true, ["LUT-E 'KRUS'"] = true, ["JTS225-Obrez"] = true,
+    ["HEARDBALLA"] = true
 }
 
 local vigilanteWeapons = {
@@ -26,7 +27,8 @@ local vigilanteWeapons = {
     ["RR-Snubby"] = true, ["ZKZ-Obrez"] = true, ["GG-17"] = true,
     ["J9-M"] = true, ["J9-Meretta"] = true, ["Pretty Pink GG-17"] = true,
     ["GG-17 TAN"] = true, ["GG-17 GILDED"] = true,
-    ["RR-Snubby GILDED"] = true, ["HWISSH-226"] = true, ["ZKZ-Obrez10"] = true
+    ["RR-Snubby GILDED"] = true, ["HWISSH-226"] = true, ["ZKZ-Obrez10"] = true,
+    ["Pretty Ping Buxxberg-COMPACT"] = true
 }
 
 -- Gun checker function
@@ -86,3 +88,4 @@ for _, player in ipairs(playersFolder:GetChildren()) do
         print("[RESULT]: " .. name .. " does NOT have a gun.")
     end
 end
+
