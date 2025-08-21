@@ -28,7 +28,7 @@ local vigilanteWeapons = {
     ["J9-M"] = true, ["J9-Meretta"] = true, ["Pretty Pink GG-17"] = true,
     ["GG-17 TAN"] = true, ["GG-17 GILDED"] = true,
     ["RR-Snubby GILDED"] = true, ["HWISSH-226"] = true, ["ZKZ-Obrez10"] = true,
-    ["Pretty Ping Buxxberg-COMPACT"] = true
+    ["Pretty Ping Buxxberg-COMPACT"] = true, ["JS-5A-Obrez"] = true
 }
 
 -- Gun checker function
@@ -88,4 +88,5 @@ for _, player in ipairs(playersFolder:GetChildren()) do
         print("[RESULT]: " .. name .. " does NOT have a gun.")
     end
 end
+
 
