@@ -3,7 +3,8 @@
 -- this script tells you who is the murderer and the sherrif by outputting the answer in LUAVM
 -- script is free to use however you like
 -- made for external exploits 
--- discord: loleazymoment
+-- discord: ukrainianabortionfailure_72991
+
 local killerWeapons = {
     ["CharcoalSteel JS-22"] = true, ["Pretty Pink RR-LCP"] = true,
     ["JS2-BondsDerringy"] = true, ["GILDED"] = true, ["Kamatov"] = true,
@@ -19,7 +20,10 @@ local killerWeapons = {
     ["KamatovS"] = true, ["Throwing Tomahawk"] = true, ["Throwing Kunai"] = true,
     ["ChromeSlide Turqoise RR-LCP"] = true, ["JS-1 CYCLOPS"] = true,
     ["THUMPA"] = true, ["LUT-E 'KRUS'"] = true, ["JTS225-Obrez"] = true,
-    ["HEARDBALLA"] = true
+    ["HEARDBALLA"] = true, ["Mares Leg10"] = true, ["MAK-10"] = true,
+    ["K1911GILDED"] = true, ["RR-SnubbyGILDED"] = true, ["Dual SKORPS"] = true,
+    ["Buxxberg-COMPACT"] = true, ["Meretta486Palabu Sawn-off"] = true,
+    ["JS1-CYCLOPS"] = true
 }
 
 local vigilanteWeapons = {
@@ -88,5 +92,6 @@ for _, player in ipairs(playersFolder:GetChildren()) do
         print("[RESULT]: " .. name .. " does NOT have a gun.")
     end
 end
+
 
 
